@@ -1,29 +1,24 @@
 {
-    "name": "ribafs/mini-mvc",
-    "description": "MINI-MVC - An application created with mini3 mvc",
+    "name": "ribafs/mini-full",
+    "description": "Aplicactivo mini completo em PHP com MVC",
     "type": "project",
     "license": "MIT",
     "authors": [
-        {
-            "name": "Panique",
-            "email": "panique@firemail.de"
-        },
-        {
-            "name": "John Dias",
-            "email": "joaodias@noctus.org"
-        },
         {
             "name": "Ribamar FS",
             "email": "ribafs@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {},
+	"minimum-stability": "stable",
+  "require":{
+    "php": ">=5.6.4",
+  },
     "autoload":
     {
         "psr-4":
         {
-            "Mini\\" : "app/"
+            "App\\" : "App/",
+            "Core\\" : "Core/"
         }
     }
 }

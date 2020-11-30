@@ -1,4 +1,3 @@
-# This file is - if you set up MINI correctly - not needed.
-# But, for fallback reasons (if you don't route your vhost to /public), it will stay here.
+# Redireciona todos os requests para o diretório public/ e habilita o mod_rewrite
 RewriteEngine on
 RewriteRule ^(.*) public/$1 [L]

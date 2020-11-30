@@ -1,0 +1,16 @@
+## Tracy
+composer require tracy/tracy
+
+<?php
+require_once 'vendor/autoload.php';
+
+use Tracy\Debugger;
+
+Debugger::enable();
+
+//Mostrar a barra de debug
+Debugger::$showBar = true;
+
+https://github.com/nette/tracy
+
+
