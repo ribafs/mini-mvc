@@ -2,6 +2,12 @@
 
 ## Aplicativo simples em PHP usando MVC com PDO e BootStrap
 
+## Requisito
+
+Precisa ter o Apache com mod_rewrite ativado para fundionar. Ou outro servidor web.
+Não funciona com apenas o servidor web nativo do PHP.
+Caso não tenha o apache rodando e com mod_rewuite ativo conseguirá abrir o index.php normalmente mas nenhum link funcionará.
+
 ## Continuando este projeto criei o
 [simplest-mvc](simplest-mvc), que é um repositório onde desenvolvo uma aplicação em PHP, com MVC em 13 fases, da forma mais simples que conheço.
 
